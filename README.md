@@ -1,4 +1,4 @@
-# WPDEC Child Theme
+# WPDC Child Theme
 
 This [Genesis-powered](http://www.studiopress.com/features/) child theme is for [WP Developers' Club](https://wpdevelopersclub.com).  It handles serving up the styling and HTML markup for the site.  It's modular, Sass-ified, and [gulp](https://knowthecode.io/labs/part-3a-automating-tasks-gulp) running.  It serves up a minified version of the stylesheet to keep the assets lean and mean.  And it uses Bourbon and Neat just for fun.  
 
