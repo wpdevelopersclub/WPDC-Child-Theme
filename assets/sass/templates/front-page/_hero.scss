@@ -1,0 +1,86 @@
+//
+// Home hero section
+// ============================
+
+.home-hero {
+
+  background: linear-gradient( rgba(39,45,64,0.7) 100%, $darkBlue),
+    url(#{$image--path}/Tiled-Logo.jpg) repeat center $darkBlue;
+
+  @include display(flex);
+  @include flex-direction(column);
+  @include justify-content(center);
+
+  height: 550px;
+
+  text-align: left;
+
+  h1, h2, h3, p {
+    color: $white;
+  }
+
+  h1 {
+    @include rem( font-size, 26px );
+
+    @include media($smaller-screen) {
+      @include rem( font-size, 30px );
+    }
+    @include media($small-screen-up) {
+      @include rem( font-size, 50px );
+    }
+    @include media($large-screen-up) {
+      @include rem( font-size, 60px );
+    }
+  }
+}
+
+.entry-content .home-hero {
+  a.button, .button {
+    margin-top: 30px;
+    border-radius: 5px;
+
+    &.first {
+      margin-right: 2%;
+      @include media($small-screen-up) {
+        margin-right: 40px;
+      }
+    }
+
+    &:hover, &:focus, &:active {
+      background-color: $green;
+      border-color: $green;
+
+      &.lime-green {
+        background-color: $orange;
+        border-color: $orange;
+      }
+    }
+  }
+}
+
+.home-hero h2, .typed-features {
+  background-color: $limeGreen;
+  padding: 5px 10px;
+}
+
+.home-hero, .typed-features {
+  h2, .typed-feature-item {
+    color: $darkBlue;
+
+    @include rem( font-size, 16px );
+    @include media($smaller-screen) {
+      @include rem( font-size, 20px );
+    }
+    @include media($small-screen-up) {
+      @include rem( font-size, 24px );
+    }
+    @include media($large-screen-up) {
+      @include rem( font-size, 28px );
+    }
+    margin-bottom: 0;
+
+    font-family: $heading-font-family;
+    font-weight: 700;
+    line-height: $heading-line-height;
+  }
+}

@@ -1,0 +1,60 @@
+.wpdc-pic-displayer {
+  margin: 40px auto;
+
+  a {
+    display: inline-block;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    height: 200px;
+    position: relative
+  }
+
+  img {
+    display: block;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    height: 100%
+  }
+
+  .overlay {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    z-index: 20;
+    background: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s;
+
+    .overlay-icon {
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      margin: 0 auto;
+      opacity: 0;
+      -webkit-transition: all 0.5s;
+      transition: all 0.5s;
+      text-align: center;
+      color: $white;
+      line-height: 200px;
+      font-weight: 700;
+      @include rem( font-size, 40px );
+    }
+
+    &:hover,
+    .overlay-icon:hover {
+      opacity: 1
+    }
+  }
+}
+

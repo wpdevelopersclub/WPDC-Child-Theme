@@ -1,0 +1,2 @@
+<p class="copyright-credit">[footer_copyright first="2015"] <a href="https://UpTechLabs.io">UpTech Labs</a>. WPDC is built and maintained by <a href="https://UpTechLabs.io">UpTech Labs</a></p>
+<p class="legal-links" style="text-align: right;"><a href="<?php echo home_url( 'terms-of-use' ); ?>">Terms</a> and <a href="<?php echo home_url( 'privacy-policy' ); ?>">Privacy</a></p>

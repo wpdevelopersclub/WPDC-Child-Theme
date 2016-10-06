@@ -1,0 +1,36 @@
+//
+// Pre-Footer
+//=======================
+
+.prefooter {
+  background: linear-gradient(rgba(39, 45, 64, 0.7) 100%, $darkBlue),
+  url(#{$image--path}/Tiled-Logo.jpg) repeat center $darkBlue;
+
+  color: $white;
+  text-align: center;
+
+  .wrap {
+    padding: 20px 30px;
+  }
+
+  .textwidget {
+    @include align-items(center);
+    @include display(flex);
+    @include flex-direction(row);
+    @include justify-content(center);
+  }
+
+  a {
+    color: $white;
+    border-bottom: none;
+    display: inline-block;
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0;
+    }
+
+    &:hover, &:active {
+      color: $orange;
+    }
+  }
+}

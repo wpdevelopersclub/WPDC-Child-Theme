@@ -1,0 +1,17 @@
+//
+// Site Header
+//====================
+
+.site-header {
+  width: 100%;
+  background: $darkBlue;
+
+  @media screen and (min-width: 600px) {
+    position: fixed;
+    z-index: 50;
+  }
+
+  //.wrap {
+  //  padding: 0;
+  //}
+}

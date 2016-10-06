@@ -1,0 +1,14 @@
+//
+// Widths
+//==================================
+
+$max-width: 1140px;
+
+$base-wrap-max-width: $max-width - 372px; // 768px;
+$wrap-max-width-medium: $max-width - 180px; // 960px
+$wrap-max-width-large: $max-width;
+
+$logoHeight: ( 108 / 2 );
+$logo--width: ( 117 / 2 ) + px;
+$logo--height: $logoHeight + px;
+$primary-nav--line-height: $logoHeight - 20 + px;

@@ -1,0 +1,27 @@
+body.meet-our-partners {
+
+  .content {
+    margin-top: 30px;
+  }
+
+  .partner-logos {
+    margin: 40px auto;
+
+    li {
+      list-style-type: none;
+      display: inline-block;
+      border: 1px solid #ccc;
+      padding: 10px;
+      width: 25%;
+    }
+
+    img {
+      margin: 0 auto;
+      width: 100%;
+    }
+  }
+}
+
+.partner-section {
+  padding: 40px 0;
+}

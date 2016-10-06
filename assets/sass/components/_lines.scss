@@ -1,0 +1,30 @@
+//
+// Lines
+//======================
+
+hr {
+  display: block;
+  border: 0;
+  border-top: 5px solid $darkBlue;
+  margin: 0 auto 80px;
+
+  &.half {
+    width: 50%;
+  }
+
+  &.third {
+    width: 33%;
+  }
+
+  &.lime {
+    border-color: $limeGreen;
+  }
+
+  &.white {
+    border-color: $white;
+  }
+
+  &.bottom-hr {
+    margin: 80px auto 0;
+  }
+}

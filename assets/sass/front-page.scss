@@ -1,0 +1,15 @@
+/*!
+  Front Page Stylesheet
+
+  Version: 1.1.0
+
+*/
+
+// Configuration
+$use-bounceInDown: true;
+// CSS path dist/css/
+$image--path: '../../images';
+
+@import 'base-stuff';
+
+@import "templates/front-page/index";

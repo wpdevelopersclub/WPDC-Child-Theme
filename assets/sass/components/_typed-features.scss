@@ -1,0 +1,60 @@
+.typed-features {
+  position: relative;
+  min-height: 40px;
+  margin-bottom: 30px;
+
+  &::before {
+    content: ">_";
+    color: $darkBlue;
+    @include rem( font-size, 26px );
+    top: 0;
+    left: 10px;
+    position: absolute;
+  }
+
+  .typed-feature-item {
+    text-align: left;
+    display: none;
+    border-bottom: none;
+    padding-left: 30px;
+
+    &.current {
+      display: block;
+    }
+
+    color: $darkBlue;
+    @include rem( font-size, 22px );
+  }
+}
+
+//
+// Blinker
+//=============================
+
+@keyframes blinker {
+  from { opacity : 1.0; }
+  50% { opacity: 0.0; }
+  to { opacity: 1.0; }
+}
+
+@-moz-keyframes blinker {
+  from { opacity : 1.0; }
+  50% { opacity: 0.0; }
+  to { opacity: 1.0; }
+}
+
+@-webkit-keyframes blinker {
+  from { opacity : 1.0; }
+  50% { opacity: 0.0; }
+  to { opacity: 1.0; }
+}
+
+@-ms-keyframes blinker {
+  from { opacity : 1.0; }
+  50% { opacity: 0.0; }
+  to { opacity: 1.0; }
+}
+
+.blinker {
+  @include animation(blinker 3s infinite);
+}

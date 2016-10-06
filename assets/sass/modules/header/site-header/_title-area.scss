@@ -1,0 +1,39 @@
+//
+// Title Area
+// - Site Title
+// - Site Description
+//======================================
+.title-area {
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+  height: $logo--height;
+
+  @media screen and (min-width: 600px) {
+    float: left;
+    text-align: left;
+    width: $logo--width;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.site-title {
+  margin: 5px 0 0;
+
+  a {
+    border: 0;
+    border-bottom: none;
+    background-image: url(#{$image--path}/wpdc-logo-green.png);
+    background-repeat: no-repeat;
+    background-size: $logo--width, $logo--height;
+    display: block;
+    width: $logo--width;
+    height: $logo--height;
+
+    margin: 0;
+    text-indent: -9999px;
+  }
+}

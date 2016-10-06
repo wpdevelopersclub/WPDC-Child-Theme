@@ -1,0 +1,54 @@
+.home--section {
+  padding: 60px 0;
+  overflow: hidden;
+
+  &.blue {
+    background-color: $darkBlue;
+  }
+
+  &.lime {
+    background-color: $limeGreen;
+  }
+
+  &.tiled-logo {
+    background: linear-gradient( rgba(39,45,64,0.7) 100%, $darkBlue),
+      url(#{$image--path}/Tiled-Logo.jpg) repeat center $darkBlue;
+
+    blockquote.cta {
+      text-align: center;
+      @include rem( font-size, 26px );
+
+      color: $white;
+      font-weight: 900;
+    }
+  }
+}
+
+.benefit-section {
+  margin-bottom: 40px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+.benefits-title {
+  text-align: center;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    border-top: 1px solid #cccccc;
+    top: 50px;
+    width: 100%;
+    height: 1px;
+    position: relative;
+  }
+  .fa {
+    font-size: 80px;
+    margin-bottom: 20px;
+    position: relative;
+    background-color: $white;
+    padding: 0 10px;
+  }
+}

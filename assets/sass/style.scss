@@ -1,0 +1,38 @@
+/*!
+	Theme Name: WPDC Child Theme
+	Theme URI: https://github.com/wpdevelopersclub/WPDC-Child-Theme
+
+	Description: The Genesis-Powered Child Theme for WP Developers' Club
+	Author: hellofromTonya
+	Author URI: https://UpTechLabs.io
+
+	Version: 2.0.0
+
+	Template: genesis
+	Template Version: 2.4.1
+
+	License: GPL-2.0+
+	License URI: http://www.opensource.org/licenses/gpl-license.php
+	Text Domain: ktc
+*/
+$image--path: 'assets/images';
+
+@import 'base-stuff';
+
+// Layouts
+@import 'layout/index';
+
+// Components
+@import 'components/index';
+
+// Modules
+@import 'modules/index';
+
+// Templates - Page specific styles
+@import 'templates/index';
+
+// Widgets
+@import 'widgets/index';
+
+@import "plugins/plugins";
+

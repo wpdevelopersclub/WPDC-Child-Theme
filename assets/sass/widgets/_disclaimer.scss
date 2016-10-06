@@ -1,0 +1,12 @@
+//
+// Disclaimer
+// ==========================
+
+.disclaimer {
+  background-color: $darkBlue;
+  color: $gray;
+  @include rem( font-size, 14px );
+  padding: 10px 0;
+  text-align: center;
+  margin:0;
+}
