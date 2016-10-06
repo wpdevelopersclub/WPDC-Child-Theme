@@ -1,6 +1,6 @@
-# Know the Code Child Theme
+# WPDEC Child Theme
 
-This [Genesis-powered](http://www.studiopress.com/features/) child theme is for [Know the Code](https://KnowTheCode.io).  It handles serving up the styling and HTML markup for the site.  It's modular, Sass-ified, and [gulp](https://knowthecode.io/labs/part-3a-automating-tasks-gulp) running.  It serves up a minified version of the stylesheet to keep the assets lean and mean.  And it uses Bourbon and Neat just for fun.  
+This [Genesis-powered](http://www.studiopress.com/features/) child theme is for [WP Developers' Club](https://wpdevelopersclub.com).  It handles serving up the styling and HTML markup for the site.  It's modular, Sass-ified, and [gulp](https://knowthecode.io/labs/part-3a-automating-tasks-gulp) running.  It serves up a minified version of the stylesheet to keep the assets lean and mean.  And it uses Bourbon and Neat just for fun.  
 
 Want to build your own Genesis starter theme? No problem.  We have a [hands-on lab](https://knowthecode.io/labs-guide/lets-build-custom-developers-genesis-starter-child-theme) that walks you through the process step-by-step.  Go build your own and save yourself a ton of time and money. 
 
@@ -14,9 +14,9 @@ This child theme is dependent upon the following:
 ## Instructions to install:
 
 1. Open up terminal and navigate to the `themes` folder.
-2. Then type: `git clone https://github.com/KnowTheCode/KTC-Child-Theme`
-3. Change the folder name to `ktc`
-4. Navigate into the new folder `cd ktc`
+2. Then type: `git clone https://github.com/wpdevelopersclub/WPDC-Child-Theme`
+3. Change the folder name to `wpdc`
+4. Navigate into the new folder `cd wpdc`
 5. It will now run.
 
 ## Sass Files
